@@ -10,7 +10,6 @@ namespace ATMApp.View
             Console.WriteLine("=== Simple ATM System ===");
             bool isRunning = true;
 
-            // Create AccountService instance
             var accountService = new AccountService();
 
             while (isRunning)
